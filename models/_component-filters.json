@@ -12,7 +12,7 @@
     "...": "../blocks/*/_*.json#/filters"
   },
   {
-    "id": "richtext",
+    "id": "text",
     "rte": {
       "toolbar": {
         "format": ["bold", "italic", "underline", "strike"],

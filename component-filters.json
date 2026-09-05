@@ -41,7 +41,7 @@
     ]
   },
   {
-    "id": "richtext",
+    "id": "text",
     "rte": {
       "toolbar": {
         "format": [
