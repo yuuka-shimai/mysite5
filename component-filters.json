@@ -39,5 +39,157 @@
       "button",
       "title"
     ]
+  },
+  {
+    "id": "richtext",
+    "rte": {
+      "toolbar": {
+        "format": [
+          "bold",
+          "italic",
+          "underline",
+          "strike"
+        ],
+        "alignment": [
+          "left",
+          "center",
+          "right",
+          "justify"
+        ],
+        "direction": [
+          "rtl",
+          "ltr"
+        ],
+        "indentation": [
+          "indent",
+          "outdent"
+        ],
+        "blocks": [
+          "paragraph",
+          "h1",
+          "h2",
+          "h3",
+          "h4",
+          "h5",
+          "h6",
+          "code_block"
+        ],
+        "list": [
+          "bullet_list",
+          "ordered_list"
+        ],
+        "insert": [
+          "link",
+          "unlink",
+          "image",
+          "table",
+          "special_characters"
+        ],
+        "sr_script": [
+          "superscript",
+          "subscript"
+        ],
+        "editor": [
+          "removeformat",
+          "paste_text"
+        ],
+        "sections": [
+          "format",
+          "alignment",
+          "direction",
+          "indentation",
+          "blocks",
+          "list",
+          "insert",
+          "sr_script",
+          "editor"
+        ]
+      },
+      "actions": {
+        "bold": {
+          "tag": "strong",
+          "shortcut": "Mod-B",
+          "label": "Bold"
+        },
+        "italic": {
+          "tag": "em",
+          "shortcut": "Mod-I",
+          "label": "Italic"
+        },
+        "strike": {
+          "tag": "del"
+        },
+        "bullet_list": {
+          "wrapInParagraphs": true,
+          "shortcut": "Mod-Shift-8",
+          "label": "Bullet List"
+        },
+        "ordered_list": {
+          "wrapInParagraphs": false,
+          "shortcut": "Mod-Shift-9",
+          "label": "Ordered List"
+        },
+        "table": {
+          "wrapInParagraphs": false,
+          "shortcut": "Mod-Alt-T",
+          "label": "Insert Table"
+        },
+        "link": {
+          "hideTarget": false,
+          "disableForImages": false,
+          "shortcut": "Mod-K",
+          "label": "Insert Link"
+        },
+        "unlink": {
+          "shortcut": "Mod-Shift-K",
+          "label": "Remove Link"
+        },
+        "image": {
+          "wrapInPicture": false,
+          "shortcut": "Mod-Shift-I",
+          "label": "Insert Image"
+        },
+        "indentation": {
+          "scope": "all"
+        },
+        "indent": {
+          "shortcut": "Tab",
+          "label": "Increase Indent"
+        },
+        "outdent": {
+          "shortcut": "Shift-Tab",
+          "label": "Decrease Indent"
+        },
+        "special_characters": {
+          "label": "Special Characters",
+          "appendCharacters": [
+            {
+              "character": "★",
+              "title": "Black star"
+            },
+            {
+              "character": "❤",
+              "title": "Heavy black heart"
+            }
+          ]
+        },
+        "paste_text": {
+          "shortcut": "Mod-Shift-v",
+          "label": "Paste as Text"
+        },
+        "h1": {
+          "shortcut": "Mod-Alt-1",
+          "label": "Large Heading"
+        },
+        "paragraph": {
+          "shortcut": "Mod-Alt-0",
+          "label": "Normal Text"
+        }
+      },
+      "unsupportedHtml": true
+    },
+    "components": [
+      "richtext"
+    ]
   }
 ]
