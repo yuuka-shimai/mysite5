@@ -1,0 +1,11 @@
+.rte-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.rte-table table th,
+.rte-table table td {
+  border: 1px solid var(--dark-color);
+  padding: 8px 12px;
+  text-align: left;
+}

@@ -16,7 +16,8 @@
       "cards",
       "columns",
       "fragment",
-      "teaser"
+      "teaser",
+      "rte-table"
     ]
   },
   {
@@ -39,6 +40,101 @@
       "button",
       "title"
     ]
+  },
+  {
+    "id": "rte-table",
+    "rte": {
+      "toolbar": {
+        "format": [
+          "bold",
+          "italic",
+          "underline",
+          "strike"
+        ],
+        "alignment": [
+          "left",
+          "center",
+          "right",
+          "justify"
+        ],
+        "direction": [
+          "rtl",
+          "ltr"
+        ],
+        "indentation": [
+          "indent",
+          "outdent"
+        ],
+        "blocks": [
+          "paragraph",
+          "h1",
+          "h2",
+          "h3",
+          "h4",
+          "h5",
+          "h6",
+          "code_block"
+        ],
+        "list": [
+          "bullet_list",
+          "ordered_list"
+        ],
+        "insert": [
+          "link",
+          "unlink",
+          "image",
+          "special_characters",
+          "table"
+        ],
+        "sr_script": [
+          "superscript",
+          "subscript"
+        ],
+        "editor": [
+          "removeformat",
+          "paste_text"
+        ],
+        "sections": [
+          "format",
+          "alignment",
+          "direction",
+          "indentation",
+          "blocks",
+          "list",
+          "insert",
+          "sr_script",
+          "editor"
+        ]
+      },
+      "actions": {
+        "bold": {
+          "tag": "strong"
+        },
+        "italic": {
+          "tag": "em"
+        },
+        "bullet_list": {
+          "wrapInParagraphs": true
+        },
+        "ordered_list": {
+          "wrapInParagraphs": true
+        },
+        "link": {
+          "hideTarget": false
+        },
+        "image": {
+          "wrapInPicture": true
+        },
+        "special_characters": {
+          "appendCharacters": [
+            {
+              "character": "â",
+              "title": "Black star"
+            }
+          ]
+        }
+      }
+    }
   },
   {
     "id": "text",
