@@ -20,7 +20,7 @@
         "indentation": [],
         "blocks": [],
         "list": ["bullet_list", "ordered_list"],
-        "insert": ["link", "unlink"],
+        "insert": ["link", "unlink", "table"],
         "sr_script": ["superscript", "subscript"],
         "editor": ["removeformat"]
       },
@@ -56,6 +56,11 @@
         "unlink": {
           "shortcut": "Mod-Shift-K",
           "label": "Remove Link"
+        },
+        "table": {
+          "wrapInParagraphs": false,
+          "shortcut": "Mod-Alt-T",
+          "label": "Insert Table"
         }
       }
     },

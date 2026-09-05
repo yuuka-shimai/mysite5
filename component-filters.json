@@ -59,7 +59,8 @@
         ],
         "insert": [
           "link",
-          "unlink"
+          "unlink",
+          "table"
         ],
         "sr_script": [
           "superscript",
@@ -101,6 +102,11 @@
         "unlink": {
           "shortcut": "Mod-Shift-K",
           "label": "Remove Link"
+        },
+        "table": {
+          "wrapInParagraphs": false,
+          "shortcut": "Mod-Alt-T",
+          "label": "Insert Table"
         }
       }
     },
